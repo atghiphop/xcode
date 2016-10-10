@@ -14,6 +14,14 @@
 		5A05DC861D92C67500CDD153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DC841D92C67500CDD153 /* LaunchScreen.storyboard */; };
 		5A05DC911D92C67500CDD153 /* eigoKarutaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A05DC901D92C67500CDD153 /* eigoKarutaTestTests.swift */; };
 		5A05DC9C1D92C67500CDD153 /* eigoKarutaTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A05DC9B1D92C67500CDD153 /* eigoKarutaTestUITests.swift */; };
+		5A05DCB71D92F22900CDD153 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DCB91D92F22900CDD153 /* 1.png */; };
+		5A05DCBA1D92F22E00CDD153 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DCBC1D92F22E00CDD153 /* 2.png */; };
+		5A05DCBD1D92F23100CDD153 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DCBF1D92F23100CDD153 /* 3.png */; };
+		5A05DCC01D92F23500CDD153 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DCC21D92F23500CDD153 /* 4.png */; };
+		5A05DCC31D92FAF800CDD153 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DCAD1D92EDB000CDD153 /* 1.m4a */; };
+		5A05DCC41D92FCDB00CDD153 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DCAA1D92EDB000CDD153 /* 4.m4a */; };
+		5A05DCC51D92FCDD00CDD153 /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DCAB1D92EDB000CDD153 /* 3.m4a */; };
+		5A05DCC61D92FCE000CDD153 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5A05DCAC1D92EDB000CDD153 /* 2.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		5A05DC971D92C67500CDD153 /* eigoKarutaTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eigoKarutaTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A05DC9B1D92C67500CDD153 /* eigoKarutaTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eigoKarutaTestUITests.swift; sourceTree = "<group>"; };
 		5A05DC9D1D92C67500CDD153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A05DCAA1D92EDB000CDD153 /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = "<group>"; };
+		5A05DCAB1D92EDB000CDD153 /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = "<group>"; };
+		5A05DCAC1D92EDB000CDD153 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		5A05DCAD1D92EDB000CDD153 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		5A05DCB81D92F22900CDD153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/1.png; sourceTree = "<group>"; };
+		5A05DCBB1D92F22E00CDD153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/2.png; sourceTree = "<group>"; };
+		5A05DCBE1D92F23100CDD153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/3.png; sourceTree = "<group>"; };
+		5A05DCC11D92F23500CDD153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,8 @@
 		5A05DC7A1D92C67500CDD153 /* eigoKarutaTest */ = {
 			isa = PBXGroup;
 			children = (
+				5A05DCAE1D92EDC000CDD153 /* Images */,
+				5A05DCA91D92ED9900CDD153 /* Sounds */,
 				5A05DC7B1D92C67500CDD153 /* AppDelegate.swift */,
 				5A05DC7D1D92C67500CDD153 /* ViewController.swift */,
 				5A05DC7F1D92C67500CDD153 /* Main.storyboard */,
@@ -123,6 +141,28 @@
 				5A05DC9D1D92C67500CDD153 /* Info.plist */,
 			);
 			path = eigoKarutaTestUITests;
+			sourceTree = "<group>";
+		};
+		5A05DCA91D92ED9900CDD153 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5A05DCAD1D92EDB000CDD153 /* 1.m4a */,
+				5A05DCAA1D92EDB000CDD153 /* 4.m4a */,
+				5A05DCAB1D92EDB000CDD153 /* 3.m4a */,
+				5A05DCAC1D92EDB000CDD153 /* 2.m4a */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		5A05DCAE1D92EDC000CDD153 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5A05DCB91D92F22900CDD153 /* 1.png */,
+				5A05DCBC1D92F22E00CDD153 /* 2.png */,
+				5A05DCBF1D92F23100CDD153 /* 3.png */,
+				5A05DCC21D92F23500CDD153 /* 4.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +227,16 @@
 		5A05DC701D92C67400CDD153 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					2,
+					3,
+					4,
+					sound1,
+					sound2,
+					sound3,
+					sound4,
+				);
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jarod Trebas";
@@ -235,9 +285,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A05DCC51D92FCDD00CDD153 /* 3.m4a in Resources */,
 				5A05DC861D92C67500CDD153 /* LaunchScreen.storyboard in Resources */,
+				5A05DCBD1D92F23100CDD153 /* 3.png in Resources */,
+				5A05DCBA1D92F22E00CDD153 /* 2.png in Resources */,
+				5A05DCB71D92F22900CDD153 /* 1.png in Resources */,
+				5A05DCC31D92FAF800CDD153 /* 1.m4a in Resources */,
+				5A05DCC01D92F23500CDD153 /* 4.png in Resources */,
 				5A05DC831D92C67500CDD153 /* Assets.xcassets in Resources */,
 				5A05DC811D92C67500CDD153 /* Main.storyboard in Resources */,
+				5A05DCC61D92FCE000CDD153 /* 2.m4a in Resources */,
+				5A05DCC41D92FCDB00CDD153 /* 4.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +371,38 @@
 				5A05DC851D92C67500CDD153 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5A05DCB91D92F22900CDD153 /* 1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A05DCB81D92F22900CDD153 /* Base */,
+			);
+			name = 1.png;
+			sourceTree = "<group>";
+		};
+		5A05DCBC1D92F22E00CDD153 /* 2.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A05DCBB1D92F22E00CDD153 /* Base */,
+			);
+			name = 2.png;
+			sourceTree = "<group>";
+		};
+		5A05DCBF1D92F23100CDD153 /* 3.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A05DCBE1D92F23100CDD153 /* Base */,
+			);
+			name = 3.png;
+			sourceTree = "<group>";
+		};
+		5A05DCC21D92F23500CDD153 /* 4.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A05DCC11D92F23500CDD153 /* Base */,
+			);
+			name = 4.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
