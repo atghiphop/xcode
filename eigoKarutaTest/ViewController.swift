@@ -103,7 +103,7 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-       // assignAndShuffle()
+        assignAndShuffle()
     }
     
     func checkIfCorrect(boxName:UIButton) {
